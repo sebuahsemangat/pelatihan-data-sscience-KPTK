@@ -1,0 +1,27 @@
+# Folder environment
+env/
+venv/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE/editor config files
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Log file / debug
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dotenv
+.env
