@@ -24,12 +24,28 @@ import numpy as np
 # print (a2[1][2])
 
 # Array 3Dimensi
-a3 = np.array([[[ 1,  2,  3],
-        [ 4,  5,  6],
-        [ 7,  8,  9]],
+# a3 = np.array([[[ 1,  2,  3],
+#         [ 4,  5,  6],
+#         [ 7,  8,  9]],
 
-       [[10, 11, 12],
-        [13, 14, 15],
-        [16, 17, 18]]])
+#        [[10, 11, 12],
+#         [13, 14, 15],
+#         [16, 17, 18]]])
 
-print(a3[1][2][1])
+# print(a3[1][2][1])
+# print (a3.shape)
+# print (a3.dtype)
+
+# zeros = np.zeros((3,2,4))
+# print (zeros)
+
+#Zeros digunakan untuk membuat array kosong jika datanya belum ada
+
+
+# Range digunakan untuk membuat array sesuai kebutuhan
+rang = np.arange(0,10,1) #(awal, akhir, jarak)
+print (rang)
+
+# Random Array
+random_array = np.random.randint(1,9, size=(5,2))
+print (random_array)
